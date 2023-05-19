@@ -157,6 +157,19 @@ python3 -m venv venv
 pip3 install -r requirements.txt
 ```
 
+## Install ffmpeg
+```sh
+sudo apt-get install ffmpeg
+```
+  
+## Connect VPN if needed and get proxy (Optional)
+```sh
+echo "$http_proxy"
+```
+  
+## Set proxy in gpt4free/you/__init__.py (Optional)
+![image](https://github.com/ben-ying/gpt4free/assets/4661175/aee6de27-7484-4fb8-88a0-2ba094dba05c)
+
 
 ## To start gpt4free GUI <a name="streamlit-gpt4free-gui"></a>
 
